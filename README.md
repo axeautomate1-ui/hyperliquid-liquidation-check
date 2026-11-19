@@ -49,6 +49,8 @@ It only calls Hyperliquid's public `info` endpoint (`clearinghouseState`). It ne
 
 A warning at 3 a.m. does not help if you are asleep. [PerpGuard](https://perpguard.com) is a trade-only agent wallet that trims a leveraged Hyperliquid position before the exchange liquidates it. The agent can place and cancel orders but can never withdraw, which Hyperliquid enforces. The first 10 accounts are free for 30 days.
 
+No terminal? The same check runs in the browser, with a calculator for positions you have not opened yet: <https://perpguard.com/calculator>
+
 There is also a free public feed of how much Hyperliquid open interest sits near liquidation, by asset, no key needed: <https://perpguard.com/api/v1/market/danger>
 
 *This tool is made by the PerpGuard team. It works on its own and does not require PerpGuard.*
